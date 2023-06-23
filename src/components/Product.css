@@ -1,0 +1,79 @@
+.product {
+/*     background-color: var(--card-background); */
+    width: 100vw;
+/*     padding: 20px 16px; */
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.productImg {
+    border-radius: 1rem;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-height: 14.37rem;
+}
+
+.productDetails {
+    display: flex;
+    margin-top: 16px;
+    /* border: 1px solid red; */ /* esto servia de ayuda visual */
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text);
+    gap: 1rem;
+    }
+
+.btnAndName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+}
+
+.productName {
+
+    font-size: .8rem;
+    color: #828282;
+    font-family: 'Montserrat';
+}
+
+.productBeds {
+
+    font-size: .8rem;
+    color: #828282;
+    font-family: 'Montserrat';
+}
+
+.rated {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.ratedNum {
+    font-size: .9rem;
+    font-family: 'Montserrat';
+}
+
+.bi-star-fill {
+    color: rgba(235, 87, 87, 1);
+}
+
+.aparTitle {
+    font-family: 'Montserrat';
+    margin-top: 1rem;
+}
+
+@media (min-width: 780px) {
+    .product{
+        width: 25rem;
+    }
+}
+
+@media (min-width: 1080px) {
+    .product{
+        width: 22rem;
+    }
+}

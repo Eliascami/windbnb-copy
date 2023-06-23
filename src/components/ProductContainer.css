@@ -1,0 +1,63 @@
+.productsSection {
+    font-family: sans-serif;
+    /* background-color: var(--container); */
+    /* width: 510px; */
+    margin:  auto;
+    padding: 1.5rem;
+    /* min-height: 400px; */
+    border-radius: 1rem;
+
+/*     display: flex;
+    flex-direction: column;
+    gap: 2rem; */
+}
+
+.titleStays {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 1.5rem;    
+}
+
+.productsTitle{
+    color: var(--text);
+
+}
+
+.staysCount {
+    font-family: 'Montserrat';
+    color: gray;
+}
+
+.productsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* esto hace que cuando las tarjetas no entren, se pongan abajo */
+    gap: 1.2rem;
+}
+
+
+
+@media (min-width: 780px) {
+    .productsSection{
+        width: 760px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .productsSection{
+        width: 100vw;
+    }
+    .titleStays{
+        margin: auto 10.5rem;
+        margin-bottom: 1.5rem;   
+    }
+}
+
+@media (min-width: 1080px) {
+    .productsContainer{
+        gap: 3rem;
+    }
+}
